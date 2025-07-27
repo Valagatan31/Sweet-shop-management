@@ -1,0 +1,47 @@
+.sweet-card {
+  background-color: #fff;
+  border: 1px solid #f3c5d0;
+  border-radius: 8px;
+  padding: 15px;
+  margin: 10px;
+  width: 220px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+  text-align: center;
+}
+
+.sweet-card:hover {
+  transform: translateY(-4px);
+}
+
+.sweet-card h3 {
+  color: #d6336c;
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+}
+
+.sweet-card p {
+  font-size: 0.9rem;
+  margin: 4px 0;
+  color: #333;
+}
+
+.sweet-card button {
+  margin-top: 10px;
+  background-color: #d6336c;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.sweet-card button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.sweet-card button:hover:not(:disabled) {
+  background-color: #a61e4d;
+}
